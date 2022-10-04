@@ -56,6 +56,8 @@ async function getMessage(msg) {
         case 'url':
             let avatarUrl = msg.author.displayAvatarURL();
             msg.channel.send(avatarUrl);
+        case'bible':
+            msg.channel.send('https://docs.google.com/spreadsheets/d/1qiy_Oi8aFiPmL4QSTR3zHe74kmvc6e_159L1mAUUlU0/edit#gid=0');
     }
 
     function grabImage(image_query) {
